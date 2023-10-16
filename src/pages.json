@@ -1,0 +1,104 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "考勤"
+            }
+        },
+        {
+            "path": "pages/mine/mine",
+            "style": {
+                "navigationBarTitleText": "个人中心"
+            }
+        },
+        {
+            "path": "pages/inquiry/inquiry",
+            "style": {
+                "navigationBarTitleText": "考勤信息查询"
+            }
+        },
+        {
+            "path": "pages/edit/edit",
+            "style": {
+                "navigationBarTitleText": "考勤信息修改"
+            }
+        },
+        {
+            "path": "pages/self-study/self-study",
+            "style": {
+                "navigationBarTitleText": "自习考勤"
+            }
+        },
+        {
+            "path": "pages/lesson/lesson",
+            "style": {
+                "navigationBarTitleText": "课堂考勤"
+            }
+        },
+        {
+            "path": "pages/society/society",
+            "style": {
+                "navigationBarTitleText": "社团考勤"
+            }
+        },
+        {
+            "path": "pages/punish/punish",
+            "style": {
+                "navigationBarTitleText": "处分信息公示"
+            }
+        },
+        {
+            "path": "pages/public/public",
+            "style": {
+                "navigationBarTitleText": "考勤信息公示"
+            }
+        },
+        {
+            "path": "pages/appeal/appeal",
+            "style": {
+                "navigationBarTitleText": "问题反馈记录"
+            }
+        },
+        {
+            "path": "pages/appeal/appeal-check",
+            "style": {
+                "navigationBarTitleText": "问题反馈查看"
+            }
+        },
+        {
+            "path": "pages/feedback/feedback",
+            "style": {
+                "navigationBarTitleText": "问题反馈"
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationStyle": "custom"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "#00AA66",
+        "backgroundColor": "#EFEFEF",
+        "fontSize": "16",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "考勤"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "个人"
+            }
+        ]
+    }
+}
